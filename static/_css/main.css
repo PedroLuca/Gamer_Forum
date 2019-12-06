@@ -1,0 +1,274 @@
+.imageMainPG{
+	margin: 0;
+	height: 20%;
+	width : 100%;
+	object-fit: cover;
+}
+.rodapeLeft{
+	width: 60%;
+	float: left;
+}
+.rodapeRight{
+	width: 40%;
+	float: right;
+}
+.rodape{
+	background-color: #BEBEBE;
+	height: 35%;
+	width: 100%;
+	padding: 30px;
+}
+.entrectt{
+	font-size: 20px;
+	font-family: Segoe UI Black;
+}
+.listaRodape{
+	text-decoration: none;
+	display: list-item;
+	color: #708090;
+	font-family: Segoe UI Black;
+}
+.listaRodape a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+.listaRodape a:hover{
+	color: #4169E1;
+}
+#logoMenu{
+	height: 110%;
+	width: 35%;
+	float: right;
+	/*background-color: #0000FF;*/
+}
+.imgUser{
+	height: 140px;
+	width: 140px;
+}
+#logomarca{
+	height: 25%;
+	width: 20%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#divTotal{
+	position: fixed;
+	width: 100%;
+	height: 10%;
+	background-color: #708090; /*#00BFFF*/
+	padding: 15px;
+}
+#right{
+	width: 30%;
+	float: left;
+}
+#menu{
+	width: 70%;
+	float: right;
+}
+#menu ul {
+	background-color: #708090;
+	list-style:none;
+	font-size: 15px;
+	padding:0px;
+	margin:0px auto;
+}
+#menu ul li	{ 
+	display: inline-block;
+	font-family: Segoe UI Black;
+	font-size: 15px;
+	margin-top: 5px;
+}
+#menu ul li a {
+	padding-left: 50px;
+	padding-right: 50px;
+	/* visual do link */
+	background-color: #708090;
+	overflow: auto;
+	color: white;
+	text-decoration: none;
+}
+#menu ul li a:hover {
+	background-color: #BEBEBE;/*#BEBEBE#1E90FF*/
+	color: #FFFFFF;
+}
+#mainTitle{
+	text-align: center;
+	font-family: Segoe UI Black;
+	font-size: 70px;
+}
+.formulario{
+	font-size: 18px;
+	font-family: Segoe UI Black;
+	margin-left: 30px;
+	padding: 14px;
+}
+.tabela{
+	padding: 10px;
+}
+.required{
+	color: red;
+	margin-left: 40px;
+	font-family: none;
+}
+ul{
+	background-color:#563d7c;
+	list-style:none;
+	font-size: 15px;
+	padding:0px;
+	margin:0px auto;
+}
+li{
+	float: left;
+}
+li a{
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	display: inline-block;
+}
+/*li a .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+} */
+.dropdown{
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+.dropdown-content a:hover{
+	background-color: #f1f1f1;
+	}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.lege{
+	font-size: 20px;
+	margin: 10px;
+}
+fieldset{
+	margin: 0px auto;
+	width: 10px;
+	padding: 5px;
+}
+/* table,td{
+	border: 2px solid black;
+} */
+#novoCadastro{
+	font-size: 15px;
+	padding-right: 2.2px;
+}
+#black{
+	padding-left: 25px;
+	font-family: Segoe UI Black;
+}
+#logarAgora{
+	padding-left: 5px;
+	font-family: Segoe UI Black;
+}
+#buttonSubLogin{
+	height:35px;
+	width:75px;
+	font-size: 15px;
+	border-radius: 25px;
+	border: 2px solid #;
+	background-color: #BEBEBE;
+	color: #fff;
+	font-family: Segoe UI Black;
+	float: right;
+}
+#buttonSubLogin:hover{
+	background-color: #708090;
+	color: #FFFFFF;
+	position: relative;
+	top: 1px;
+	left: 1px; 
+	font-family: Segoe UI Black;
+}
+.buttonSub{
+	height:35px;
+	width:75px;
+	font-size: 15px;
+	border-radius: 25px;
+	border: 2px solid #;
+	background-color: #BEBEBE;
+	color: #fff;
+	font-family: Segoe UI Black;
+	margin-left: 15px;
+}
+.buttonSub:hover{
+	background-color: #708090;
+	color: #FFFFFF;
+	position: relative;
+	top: 1px;
+	left: 1px; 
+	font-family: Segoe UI Black;
+}
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+.noFont{
+	font-family: none;
+	font-size: 18px;
+}
+#login{
+	padding: 10px;
+	font-size: 27px;
+	font-family: Segoe UI Black;
+	margin-left: 50px;
+}
+.login2{
+	padding: 20px;
+}
+.mainText{
+	font-size: 25px;
+	padding: 15px;
+	text-align: justify;
+}
+#subTitle{
+	padding: 15px;
+}
+#doe{
+	font-size: 20px;
+	margin-left: 10px;
+}
+#homeinfo{
+	text-align:left;
+	float:left;
+}
+#dum{
+	float:right;
+	}

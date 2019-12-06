@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+		<br/><br/><br/><br/><br/>
+		<h1 id="mainTitle"> CADASTRE-SE </h1>
+		<br/>
+		<form method = "POST" action = ""> 
+			{{form.usuario.label}}
+			{{form.usuario}}
+			<br/>
+			{{form.nome.label}}
+			{{form.nome}}
+			<br/>
+			{{form.senha.label}}
+			{{form.senha}}
+			<br/>
+			{{form.confirmars.label}}
+			{{form.confirmars}}
+			<br/>
+			{{form.email.label}}
+			{{form.email}}
+			<br/>
+			{{form.cidade.label}}
+			{{form.cidade}}
+			<br/>
+			{{form.estado.label}}
+			{{form.estado}}
+		</form>
+		<br/><br/><br/>
+{% endblock conteudo %}

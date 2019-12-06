@@ -1,0 +1,53 @@
+<form name="form" action="../home.html" method="get">
+			<fieldset>
+				<legend class="lege"><strong> Informações pessoais: </strong></legend>
+					<table class="formulario">
+						<tr><td class="tabela"><label> Nome:</label></td><td class="tabela"><input required type="text" id="name" placeholder="Nome" /></td>
+						<td class="tabela"><label> Sobrenome:</label></td><td class="tabela"><input required type="text" id="surname"   placeholder="Sobrenome" /></td></tr>
+						<tr>
+							<td class="tabela">
+								<label> Usuário:
+							</td>
+							<td class="tabela">
+								<input required type="text" id="user" placeholder="Nome de usuário">
+							</td>
+							<td class="tabela"><label> Senha:</label></td><td class="tabela"><input required type="password" id="pass" placeholder="Senha" required pattern="(?=.*\d)(?=.*[a-z]).{8,}" title="A senha deve conter pelo menos 8 ou mais caracteres, 1 número e nenhuma letra maiúscula"></td></tr>
+						<tr><td class="tabela"><label> Sexo: </td><td colspan="3" class="tabela"><input type="radio" name="gender" id="gender"> Masculino <input type="radio" name="gender" id="gender"> Feminino <input type="radio" name="gender" id="gender"> Outro</td></tr>
+						<tr><td><label> Cidade:</label></td><td><input required type="text" id="cidade" placeholder="Sua cidade" /></td><td class="tabela"><label> Estado:</label></td><td class="tabela">
+						<select id="estado">
+							<option> Seu Estado </option>
+							<option> Acre (AC) </option>
+							<option> Alagoas (AL) </option>
+							<option> Amapá (AP) </option>
+							<option> Amazonas (AM) </option>
+							<option> Bahia (BA) </option>
+							<option> Ceará (CE) </option>
+							<option> Distrito Federal (DF) </option>
+							<option> Espírito Santo (ES) </option>
+							<option> Goiás (GO) </option>
+							<option> Maranhão (MA) </option>
+							<option> Mato Grosso (MT) </option>
+							<option> Mato Grosso do Sul (MS) </option>
+							<option> Minas Gerais (MG) </option>
+							<option> Pará (PA)  </option>
+							<option> Paraíba (PB) </option>
+							<option> Paraná (PR) </option>
+							<option> Pernambuco (PE) </option>
+							<option> Piauí (PI) </option>
+							<option> Rio de Janeiro (RJ) </option>
+							<option> Rio Grande do Norte (RN) </option>
+							<option> Rio Grande do Sul (RS) </option>
+							<option> Rondônia (RO) </option>
+							<option> Roraima (RR) </option>
+							<option> Santa Catarina (SC) </option>
+							<option> São Paulo (SP) </option>
+							<option> Sergipe (SE) </option>
+							<option> Tocantins (TO) </option>
+						</select>
+						</td></tr>
+						<tr><td class="tabela"><label> Email:</label></td><td class="tabela"><input type="email" id="email" value="" placeholder="nome@mail.com" required></td></tr>
+						</table>
+						<br/>
+						<input type="submit" value="Enviar" class="buttonSub" onclick="valid()"><input type="reset" value="Apagar" class="buttonSub"><label id="black">Já possui cadastro?</label><a id="logarAgora" href="login.html">Faça log-in agora!</a>
+			</fieldset>	
+		</form>

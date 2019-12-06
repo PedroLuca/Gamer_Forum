@@ -1,0 +1,29 @@
+{% extends 'base2.html' %}
+
+{% block conteudo %}
+		<br/><br/><br/><br/><br/>
+		<h1 id="mainTitle"> Pedro Luca </h1>
+		<br/><br/>
+		<div id="Mover">
+		<fieldset>
+			<div id="divPedro"><img src="{{ url_for('static', filename='_images/pedroluca.jpg') }}" id="pedro"></div>
+			<div id="divPedroRight">
+			<p>Nome completo: Pedro Luca Prates Mendes Donato Teixeira </p>
+			<p>Ocupação: Estudante do curso Técnico em Informática para Internet no <br/> <a href="http://ifbaiano.edu.br/portal/" target="_blank" class="linkIF">Instituto Federal Baiano</a> - <a href="http://www.ifbaiano.edu.br/unidades/guanambi/" target="_blank" class="linkIF">Campus Guanambi</a></p>
+			<br/>
+			<p>Participação em eventos: </p>
+			<p class="listParticipacao"> Apresentação de Projeto Arduino: Plotclock 2.0 na II SECITEC, realizada no IF Baiano - Campus Guanambi </p>
+			<p class="listParticipacao"> Apresentação de Projeto Arduino: Alarme.ino na I Vila da Ciência, realizada no IF Baiano - Campus Guanambi </p>
+			<p class="listParticipacao"> Apresentação de Projeto: Submarino com Princípio de Pascal na II Vila da Ciência, realizada no IF Baiano - Campus Guanambi </p>
+			<p class="listParticipacao"> Participação na 2a Edição da Fórmula Drone - SAE Brasil, como membro da equipe IF Copter (9a colocada), realizada na UNIFEI - Campus Itajubá </p>
+			<p class="listParticipacao"> Participação no Jogos Estudantis do IF Baiano - 2018, na modalidade de natação (4° colocado), realizado no IF Baiano - Campus Bom Jesus da Lapa </p>
+			<br/>
+			<p> Meios de Comunicação: </p>
+			<p class="listParticipacao"> Email: pedrolucaofc@outlook.com </p>
+			<p class="listParticipacao"> Instagram: <a href="https://www.instagram.com/peu.uh/" target="_blank" class="linkIF"> @peu.uh </a> </p>
+			<p class="listParticipacao"> Facebook: <a href="https://www.facebook.com/pedrolucagbi" target="_blank" class="linkIF"> Pedro Luca </a> </p>
+			</div>
+		</fieldset>
+		</div>
+		<br/><br/><br/><br/><br/>
+{% endblock conteudo %}

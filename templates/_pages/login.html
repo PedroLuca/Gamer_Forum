@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+		<br/><br/><br/><br/><br/>
+		<h1 id="mainTitle"> CADASTRE-SE </h1>
+		<br/>
+		<form method = "POST" action = ""> 
+			{{form.usuario.label}}
+			{{form.usuario}}
+			<br/>
+			{{form.senha.label}}
+			{{form.senha}}
+		
+		</form>
+		<br/><br/><br/>
+{% endblock conteudo %}

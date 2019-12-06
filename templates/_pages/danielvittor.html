@@ -1,0 +1,28 @@
+{% extends 'base2.html' %}
+
+{% block conteudo %}
+		<br/><br/><br/><br/><br/>
+		<h1 id="mainTitle"> Daniel Víttor </h1>
+		<br/><br/>
+		<div id="Mover">
+		<fieldset>
+			<div id="divPedro"><img src="{{ url_for('static', filename='_images/danielv.jpeg') }}" id="pedro"></div>
+			<div id="divPedroRight">
+			<p>Nome completo: Daniel Víttor Gonçalves Costa </p>
+			<p>Ocupação: Estudante do curso Técnico em Informática para Internet no <br/> <a href="http://ifbaiano.edu.br/portal/" target="_blank" class="linkIF">Instituto Federal Baiano</a> - <a href="http://www.ifbaiano.edu.br/unidades/guanambi/" target="_blank" class="linkIF">Campus Guanambi</a></p>
+			<br/>
+			<p>Participação em eventos: </p>
+			<p class="listParticipacao"> Apresentação de Projeto Arduino: Aerobee na II SECITEC, realizada no IF Baiano - Campus Guanambi </p>
+			<p class="listParticipacao"> Apresentação de Projeto Arduino: Aerobee na I Vila da Ciência, realizada no IF Baiano - Campus Guanambi </p>
+			<p class="listParticipacao"> Apresentação de Projeto: Motor de Solenoide na II Vila da Ciência, realizada no IF Baiano - Campus Guanambi </p>
+			<p class="listParticipacao"> Participação na 3a Edição da Fórmula Drone - SAE Brasil, como mecânico  da equipe IF Copter, realizada na UNIFEI - Campus Itajubá </p>
+			<br/>
+			<p> Meios de Comunicação: </p>
+			<p class="listParticipacao"> Email: danielvittor83@gmail.com </p>
+			<p class="listParticipacao"> Instagram: <a href="https://www.instagram.com/daniel.pdi/" target="_blank" class="linkIF"> @daniel.pdi </a> </p>
+			<p class="listParticipacao"> Facebook: <a href="https://www.facebook.com/danielvittor.costa" target="_blank" class="linkIF"> Daniel Víttor </a> </p>
+			</div>
+		</fieldset>
+		</div>
+		<br/><br/><br/><br/><br/>
+{% endblock conteudo %}

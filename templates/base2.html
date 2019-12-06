@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Gamer Forum </title>
+		<script src="./_js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='_css/pedro.css') }}">
+		<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='_images/logomark.png') }}">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	<div id="divTotal">
+		<nav id="menu">
+			<ul >
+				<li><a href="/"><i> INÍCIO </i></a></li>
+				<li class="dropdown"><a href="javascript:void(0)" class="dropbtn"> CONTATE-NOS </a>
+					<div class="dropdown-content">
+					<a href="https://www.instagram.com/gamerforumoficial/" target="_blank"> INSTAGRAM </a>
+					<a href="https://www.facebook.com/Gamer-Forum-286817708921127/" target="_blank"> FACEBOOK </a>
+					<a href="https://twitter.com/GamerForumOffi1" target="_blank"> TWITTER </a>
+					</div>
+				</li>
+				<li><a href="/doar"> DOAR </a></li>
+				<li><a href="/cadastrar"> CADASTRAR </a></li>
+				<li><a href="/login"> LOG IN </a></li>
+			</ul>	
+		</nav>
+		<div id="right">
+			<a href="/">
+				<img src="{{ url_for('static', filename='_images/shortcut.png') }}" id="logoMenu">
+			</a>
+		</div>
+    </div>
+    {% block conteudo %}
+    {% endblock conteudo %}
+
+		<div class="rodape">
+			<div class="rodapeLeft">
+				<h4 class="entrectt"> Fale conosco: </h4>
+				<p class="listaRodape"> <a href="https://www.instagram.com/gamerforumoficial/" target="_blank">Instagram</a> </p>
+				<p class="listaRodape"> <a href="https://www.facebook.com/Gamer-Forum-286817708921127/" target="_blank">Facebook</a> </p>
+				<p class="listaRodape"> <a href="https://twitter.com/GamerForumOffi1" target="_blank">Twitter</a> </p>
+			</div>
+			<div class="rodapeRight">
+				<h4 class="entrectt"> Entre em contato com os CEOs: </h4>
+				<p class="listaRodape"><a href="/pedroluca"> Pedro Luca </a></p>
+				<p class="listaRodape"><a href="/danielvittor"> Daniel Víttor </a></p>
+			</div>
+		</div>
+		</body>
+</html>
